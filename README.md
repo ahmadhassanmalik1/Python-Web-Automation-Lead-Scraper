@@ -1,25 +1,20 @@
----
-
-### 📄 Project 2: `python-web-scraper-automation`
-
-```markdown
 # 🐍 Python Web Automation & Lead Scraper
 
-An automated Python script that extracts page titles, meta tags, and structured headings (H1, H2) from targeted web pages and exports the processed data into clean JSON format.
+An automated Python script built with BeautifulSoup4 and Requests to extract structured metadata, page titles, and headings (H1, H2) from target websites and export them to clean JSON/CSV format.
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue)
 ![Dependencies](https://img.shields.io/badge/Dependencies-BeautifulSoup4%20%7C%20Requests-orange)
 
-## 📌 Key Features
+## ✨ Features
 
-* 🔍 **Automated Scraping:** Fast HTML parsing using `BeautifulSoup4`.
-* 🛡️ **User-Agent Handling:** Bypasses basic scraper blocking with customized browser headers.
-* 💾 **Structured Data Export:** Automatically formats and outputs scraped content to a `scraped_data.json` file.
-* ⚡ **Error Handling:** Built-in exception handling for network timeouts and missing HTML elements.
+* 🔍 **Automated Data Extraction:** Efficiently parses HTML for key web metadata and headers.
+* 🛡️ **Custom User-Agent:** Prevents scraper blocking by mimicking browser requests.
+* 💾 **Structured Export:** Saves extracted data directly to `scraped_data.json`.
+* ⚡ **Error Resilience:** Includes try-except handling for network timeouts.
 
-## 🛠️ Prerequisites & Installation
+## 🛠️ Requirements & Installation
 
-Make sure you have Python 3 installed. Install the required packages using pip:
+Install dependencies via pip:
 
 ```bash
 pip install requests bs4 pandas
