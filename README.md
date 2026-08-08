@@ -1,20 +1,28 @@
-# 🐍 Python Web Automation & Lead Scraper
+# ⚡ Web Intelligence & Lead Extraction SaaS App
 
-An automated Python script built with BeautifulSoup4 and Requests to extract structured metadata, page titles, and headings (H1, H2) from target websites and export them to clean JSON/CSV format.
+An interactive Python Web Application built with Streamlit, BeautifulSoup4, and Pandas. It automates web scraping, SEO metadata analysis, and heading/topic extraction from any public website with instant CSV exporting capabilities.
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue)
-![Dependencies](https://img.shields.io/badge/Dependencies-BeautifulSoup4%20%7C%20Requests-orange)
+![Framework](https://img.shields.io/badge/UI-Streamlit-FF4B4B)
+![Status](https://img.shields.io/badge/Status-Production%20SaaS-success)
 
-## ✨ Features
+## ✨ Key Features
 
-* 🔍 **Automated Data Extraction:** Efficiently parses HTML for key web metadata and headers.
-* 🛡️ **Custom User-Agent:** Prevents scraper blocking by mimicking browser requests.
-* 💾 **Structured Export:** Saves extracted data directly to `scraped_data.json`.
-* ⚡ **Error Resilience:** Includes try-except handling for network timeouts.
+* 📊 **Interactive SaaS Dashboard:** Replaces command-line scripts with a modern web interface.
+* 🔍 **Real-Time Extraction:** Scrapes HTML page titles, HTTP status codes, headings (H1–H3), and outbound links instantly.
+* ⚙️ **Customizable Controls:** Sidebar sliders to adjust maximum extraction limits on the fly.
+* 📥 **One-Click Export:** Automatically generates structured Pandas DataFrames and allows instant CSV downloads.
 
-## 🛠️ Requirements & Installation
+## 🛠️ Tech Stack & Dependencies
 
-Install dependencies via pip:
+* **Core Language:** Python 3.x
+* **UI Framework:** Streamlit
+* **Web Scraping:** BeautifulSoup4, Requests
+* **Data Processing:** Pandas
 
-```bash
-pip install requests bs4 pandas
+## 🚀 Local Installation & Execution
+
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/ahmadhassanmalik1/python-web-scraper-automation.git](https://github.com/ahmadhassanmalik1/python-web-scraper-automation.git)
+   cd python-web-scraper-automation
